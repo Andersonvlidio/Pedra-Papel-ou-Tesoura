@@ -1,0 +1,98 @@
+
+
+body{
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+    
+}
+
+header{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    
+} 
+header h1{
+    color: #fff;
+    padding: 18px;
+}
+
+main{
+    width: 100%;
+    text-align: center;
+}
+h2{
+    padding: 15px;
+    font-size: 30px;
+}
+h3{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#placar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #000;
+    width: 300px;
+    margin: 5px auto;
+    padding: 5px;
+}
+#placar #jogador{
+    position: absolute;
+    font-weight:400;
+    font-size:25px ;
+    background-color: #e2122a;
+    color: #fff;
+    margin: 5px 0;
+    padding: 5PX;
+    left: -50px;
+    top: 5px ;
+}
+#placar #computador{
+    position: absolute;
+    font-weight:400;
+    font-size:25px ;
+    background-color: #19ab9f;
+    color: #fff;
+    margin: 5px 0;
+    padding: 5px;
+    right:-90px;
+    top: 5px ;
+}
+#placar #ponto{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#jogada{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+#jogada div{
+    padding: 15px;
+}
+#jogada #pedra img:hover{
+    cursor: pointer;
+    box-shadow:2px 1px 15px 1px #19ab9f;
+}
+#jogada #papel img:hover{
+    cursor: pointer;
+    box-shadow:2px 1px 15px 1px #e2122a;
+}
+#jogada #tesoura img:hover{
+    cursor: pointer;
+    box-shadow:2px 1px 15px 4px #b3cc33;
+}
+
+#resultado{
+    display: flex;
+    justify-content: center;
+    margin: 15px 15px;
+}

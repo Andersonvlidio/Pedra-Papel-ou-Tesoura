@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="shortcut icon" href="./img/favicon" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Pedra, Papel ou Tesoura</h1>
+    </header>
+    <main>
+        <h2>Placar</h2>
+        <div id="placar">
+            <p id="jogador">Jogador</p>
+            <p id="computador"> Computador</p>
+            <div id="ponto">
+                <span id="ponto-jogador">0</span> :
+                <span id="ponto-computador">0</span>
+            </div>
+            
+        </div>
+        <h2>Faça sua Jogada!</h2>
+        <div id="jogada">
+            <div id="pedra">
+                <img src="./img/pedra.png" alt="Pedra">
+            </div>
+            <div id="papel">
+                <img src="./img/papel.png" alt="Papel">
+            </div>
+            <div id="tesoura">
+                <img src="./img/tesoura.png" alt="Tesoura">
+            </div>
+        </div>
+    
+        <h2 id="msg"></h2>
+        <div id="resultado">    
+            <!-- Conteúdo preenchido dinamicamente através do javascript -->
+        </div>
+    </main>
+
+    <script src="./script/script.js"></script>
+    
+</body>
+</html>
