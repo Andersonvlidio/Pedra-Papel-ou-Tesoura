@@ -16,10 +16,6 @@
 
 Projeto de Pedra, papel ou tesoura, desenvolvido em HTML, CSS e JavaScript, onde o jogador escolhe sua opção e o computador uma opção aleatória.
 
-## Deploy
-
-o deploy foi feito através do site netifly.
-
 
 ## Author
 
