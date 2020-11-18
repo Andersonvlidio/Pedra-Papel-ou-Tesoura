@@ -10,7 +10,7 @@
 
 ## Iniciar projeto
  - Bixar o projeto, ou clonar.
- - 
+ - duplo clique no arquivo "index.html".
 
 ## Descrição
 
